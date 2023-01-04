@@ -1,0 +1,67 @@
+/*#background{
+    background-color: black;
+}*/
+#logoimage {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  left: 25px;
+  top: 9px;
+}
+#home {
+  position: absolute;
+  top: 6%;
+  left: 15%;
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+}
+#gallery {
+  position: absolute;
+  top: 6%;
+  left: 29%;
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+}
+#accIcon {
+  position: absolute;
+  top: 5%;
+  left: 92%;
+  color: aliceblue;
+  size: 59px;
+  fill: lightcoral;
+}
+
+#events {
+  position: absolute;
+  top: 6%;
+  left: 45%;
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+}
+#uploads {
+  position: absolute;
+  top: 6%;
+  left: 60%;
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+}
+#support {
+  position: absolute;
+  top: 6%;
+  left: 74%;
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+}
+#home:hover,
+#gallery:hover,
+#support:hover,
+#uploads:hover,
+#events:hover,
+#accIcon:hover {
+  color: rgb(139, 179, 29);
+}

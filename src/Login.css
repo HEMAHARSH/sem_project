@@ -1,0 +1,122 @@
+#lbody {
+  background-image: url("https://www.srikrishna.ac.in/images/Slider/Slide2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.h2 {
+  font-size: xx-large;
+  color: rgb(7, 7, 7);
+}
+
+.cover {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 35em;
+  height: 30em;
+  position: absolute;
+  top: 2.5em;
+  left: 19em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+input {
+  background-color: rgb(171, 169, 169);
+  margin: 0 0 0 0em;
+  border: none;
+  height: 3em;
+  width: 390px;
+  border-radius: 25em;
+  text-align: center;
+  font-weight: bolder;
+  font-size: medium;
+}
+#llogin-btn {
+  margin: 0 0 0 0em;
+  width: 40%;
+  height: 3em;
+  background-color: rgb(32, 177, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  border-radius: 25em;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 45vh;
+  left: 30vh;
+  text-decoration: none;
+}
+.alt-login {
+  width: 80%;
+  height: 3em;
+  display: flex;
+}
+.alt-login div {
+  width: 50%;
+  height: 3em;
+  position: absolute;
+  top: 74vh;
+  left: 25vh;
+  border-radius: 25em;
+  background-color: rgb(32, 177, 255);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: -1em 0 0 0em;
+}
+
+#signup {
+  justify-content: center;
+  text-align: center;
+  padding-top: 3vh;
+}
+input:focus {
+  outline-color: rgb(134, 11, 200);
+}
+
+#llogin-btn:hover {
+  transform: scale(1.05);
+}
+#signup:hover {
+  transform: scale(1.05);
+}
+.text {
+  padding-left: 1em;
+  color: black;
+}
+.hide {
+  position: absolute;
+  transform: scale(0);
+}
+.login-popup {
+  position: absolute;
+  height: 30em;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2em;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  transform: scale(1);
+  transform: 1.5s;
+}
+.forgot {
+  color: black;
+  padding-top: 5vh;
+  padding-bottom: -5vh;
+}
+#popupmessage,
+#popupmsg {
+  justify-content: center;
+  text-align: center;
+}

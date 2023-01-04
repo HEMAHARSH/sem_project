@@ -1,0 +1,254 @@
+#head {
+  background-image: url("./Assets/backgroundGrey.jpg");
+  background-repeat: "no-repeat";
+  background-size: "fill";
+  background-position: "center";
+  background-attachment: "";
+  height: 266vh;
+}
+#okay {
+  position: absolute;
+  top: 1180%;
+  left: 0%;
+  width: 245.5%;
+  height: 40px;
+  background-color: wheat;
+  opacity: 0.6;
+}
+
+#supportHead {
+  text-align: center;
+  justify-content: center;
+  color: floralwhite;
+  font-size: 40px;
+  margin-top: 2%;
+}
+
+#comments {
+  color: aliceblue;
+  font-size: 29px;
+  position: absolute;
+  left: 10%;
+}
+#comments2 {
+  color: aliceblue;
+  font-size: 29px;
+  position: absolute;
+  left: 10%;
+  top: 100%;
+}
+#comments1 {
+  color: aliceblue;
+  font-size: 18px;
+  position: absolute;
+  left: 10%;
+  margin-top: 40px;
+  font-kerning: auto;
+}
+#comments3 {
+  color: aliceblue;
+  font-size: 18px;
+  position: absolute;
+  left: 10%;
+  top: 100%;
+  margin-top: 40px;
+  font-kerning: auto;
+}
+#textbox1 {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: grey;
+  opacity: 0.8;
+}
+#supportbutton {
+  position: absolute;
+  top: 285px;
+  width: 155vh;
+  height: 7.5vh;
+  font-size: larger;
+  left: 0;
+  background-color: gray;
+  opacity: 0.8;
+}
+input,
+select {
+  color: white;
+  opacity: 6;
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+hr {
+  margin-top: 2%;
+  color: rgba(248, 248, 5, 0.817);
+}
+#overlay {
+  position: absolute;
+  top: 120%;
+  left: 13%;
+  width: 30%;
+  height: 40%;
+  background-color: grey;
+  opacity: 0.8;
+}
+#overlay2 {
+  position: absolute;
+  top: 120%;
+  left: 60%;
+  width: 30%;
+  height: 40%;
+  background-color: grey;
+  opacity: 0.8;
+}
+#overlay3 {
+  position: absolute;
+  top: 175%;
+  left: 37%;
+  width: 30%;
+  height: 40%;
+  background-color: grey;
+
+  opacity: 0.8;
+}
+#circle {
+  position: absolute;
+  top: 113%;
+  left: 20%;
+  color: grey;
+  opacity: 0.4;
+  height: 15%;
+  width: 15%;
+}
+#circle1 {
+  position: absolute;
+  top: 113%;
+  left: 67%;
+  color: grey;
+  opacity: 0.4;
+  height: 15%;
+  width: 15%;
+}
+#circle2 {
+  position: absolute;
+  top: 168%;
+  left: 44%;
+  color: grey;
+  opacity: 0.4;
+  height: 15%;
+  width: 15%;
+}
+#call {
+  position: absolute;
+  left: 43%;
+  top: -6%;
+}
+#email {
+  position: absolute;
+  left: 45%;
+  top: -4%;
+}
+#place {
+  position: absolute;
+  left: 44%;
+  top: -6%;
+}
+#calltext {
+  text-align: center;
+  justify-content: center;
+  color: aliceblue;
+  padding-top: 14%;
+  font-size: 40px;
+}
+#calltel {
+  position: absolute;
+  top: 49%;
+  left: 7%;
+  font-size: 20px;
+  padding-left: 30%;
+  color: aliceblue;
+  background-color: grey;
+  opacity: 0.8;
+  border: none;
+  text-decoration: underline;
+}
+#calltel1 {
+  position: absolute;
+  top: 60%;
+  left: 12%;
+  font-size: 20px;
+  padding-top: 5%;
+  padding-left: 30%;
+  color: aliceblue;
+  background-color: grey;
+  opacity: 0.8;
+  border: none;
+  text-decoration: underline;
+}
+#emailus {
+  text-align: center;
+  justify-content: center;
+  color: aliceblue;
+  padding-top: 14%;
+  font-size: 40px;
+}
+#emaillink {
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  color: aliceblue;
+  border: none;
+  background-color: grey;
+  opacity: 0.8;
+  text-decoration: underline;
+  font-size: larger;
+}
+#location {
+  text-align: center;
+  justify-content: center;
+  color: aliceblue;
+  padding-top: 14%;
+  font-size: 40px;
+}
+#locationaddress {
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  background-color: grey;
+  opacity: 0.8;
+  border: none;
+  text-decoration: underline;
+  font-size: 15px;
+  color: aliceblue;
+}
+#cc {
+  color: yellow;
+  position: absolute;
+  left: 10%;
+  top: 225%;
+  font-size: xx-large;
+}
+#names {
+  color: aliceblue;
+  position: absolute;
+  left: 10%;
+  top: 232%;
+  font-size: x-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+#hori {
+  margin-top: 90%;
+  color: rgba(248, 248, 5, 0.817);
+}
+#qrcode {
+  position: absolute;
+  top: 230%;
+  right: 7%;
+}
+#imglogo {
+  display: flex;
+  padding-top: 13px;
+  padding-left: 69px;
+}

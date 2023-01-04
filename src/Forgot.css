@@ -1,0 +1,104 @@
+#Forgetbody {
+  background-image: url("https://www.srikrishna.ac.in/images/Slider/Slide1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#Fcover3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 35em;
+  height: 30em;
+  top: 2.5em;
+  position: absolute;
+  left: 20em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#Fh {
+  padding-left: 0em;
+  font-size: xx-large;
+  color: rgb(3, 1, 17);
+}
+#Freset3 {
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  color: rgb(38, 47, 151);
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+input {
+  background-color: rgb(171, 169, 169);
+  margin: 0 0 0 0em;
+  border: none;
+  height: 2em;
+  width: 300px;
+  border-radius: 25em;
+  text-align: center;
+  font-weight: bolder;
+  font-size: medium;
+}
+#Flink-btn3 {
+  margin: 0 0 0 0em;
+  width: 60%;
+  height: 3em;
+  background-color: rgb(32, 177, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  border-radius: 25em;
+  cursor: pointer;
+  font-size: large;
+}
+#Flogin-btn3 {
+  margin: 0 0 0 0em;
+  width: 60%;
+  height: 3em;
+  background-color: rgb(32, 177, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  border-radius: 25em;
+  cursor: pointer;
+  color: rgb(32, 177, 255);
+  font-size: large;
+}
+input:focus {
+  outline-color: rgb(134, 11, 200);
+}
+
+#Flink-btn3:hover,
+#Flogin-btn3:hover {
+  transform: scale(1.05);
+}
+
+#text3 {
+  padding-left: 6em;
+}
+#Fhide3 {
+  position: absolute;
+  transform: scale(0);
+}
+#Fpass-popup3 {
+  position: absolute;
+  height: 30em;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2em;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  transform: scale(1);
+  transform: 1.5s;
+}

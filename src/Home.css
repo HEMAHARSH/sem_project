@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+* {
+  margin: 0mm;
+  padding: 0px;
+}
+#context {
+  text-align: center;
+}
+.bg {
+  width: 100%;
+  height: 100vh;
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#icon {
+  font-size: 36px;
+  padding-top: 0.7rem;
+  padding-left: 1em;
+}
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textWriting {
+  font-size: 50px;
+  font-style: italic;
+  padding-top: 20%;
+}
+.textWriting h1 {
+  color: rgb(255, 255, 255);
+}
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+#bodyhome {
+  background-image: url("./Assets/backgroundGrey.jpg");
+  background-repeat: "no-repeat";
+  background-size: "fill";
+  background-position: "center";
+  background-attachment: "";
+  height: 320vh;
+}
+#contact {
+  position: relative;
+}
+#headerdis {
+  position: fixed;
+}
+#gmab {
+  padding-top: 40%;
+  text-align: center;
+}
+.booktext {
+  position: absolute;
+  width: 200vh;
+  height: 37vh;
+  left: 4vh;
+  top: 128vh;
+  font-style: italic;
+  line-height: 60px;
+  text-align: center;
+  border: 2px solid yellow;
+  border-left: 0cm;
+  border-right: 0cm;
+}
+
+.lineUp {
+  animation: 2s anim-lineUp ease-out infinite;
+  font-size: 60px;
+  position: relative;
+  left: 0%;
+  top: 20%;
+  font-family: "papyrus";
+  color: rgb(159, 245, 10);
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);

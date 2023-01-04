@@ -1,0 +1,63 @@
+#Ubody {
+  background-image: url("./Assets/backgroundGrey.jpg");
+  background-repeat: "no-repeat";
+  background-size: "fill";
+  background-position: "center";
+  background-attachment: "";
+  height: 150vh;
+}
+#idhr {
+  margin-top: 102vh;
+}
+#uUpload {
+  text-align: center;
+  justify-content: center;
+  color: floralwhite;
+  font-size: 40px;
+  margin-top: 2%;
+}
+#uphr {
+  margin-top: 2%;
+  border: 0.1px solid rgb(215, 252, 115);
+}
+#Uparatext {
+  color: yellow;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  justify-self: center;
+  text-align: center;
+}
+#Upicbg {
+  position: absolute;
+  right: 23%;
+  top: 49%;
+}
+#Uuptag {
+  position: absolute;
+  left: 40%;
+  bottom: -4%;
+}
+#Uuptext {
+  color: black;
+  position: absolute;
+  bottom: -4%;
+  left: 47%;
+  font-style: italic;
+  justify-content: center;
+  text-align: center;
+}
+#Uuptext1 {
+  color: white;
+  position: absolute;
+  top: 140%;
+  right: 16%;
+  font-size: x-large;
+}
+#helloooo {
+  background-image: url("./Assets/backgroundGrey.jpg");
+  background-repeat: "no-repeat";
+  background-size: "fill";
+  background-position: "center";
+  background-attachment: "";
+  height: 20vh;
+}

@@ -1,0 +1,398 @@
+#Gheading {
+  background-image: url("./Assets/backgroundGrey.jpg");
+  background-repeat: "no-repeat";
+  background-size: "fill";
+  background-position: "center";
+  background-attachment: "";
+  height: 630vh;
+}
+#GGallery {
+  text-align: center;
+  justify-content: center;
+  color: floralwhite;
+  font-size: 40px;
+  margin-top: 2%;
+}
+hr {
+  margin-top: 2%;
+  border: 0.1px solid rgb(215, 252, 115);
+}
+#Gp1 {
+  position: absolute;
+  right: 93%;
+  bottom: 52%;
+  fill: crimson;
+  font-size: 400%;
+}
+h4 {
+  background-color: grey;
+  position: absolute;
+  opacity: 1;
+  border: 20px;
+  border-radius: 15px;
+  bottom: 57%;
+  right: 76%;
+  font-size: x-large;
+  color: black;
+}
+h5 {
+  color: white;
+  position: absolute;
+  bottom: 52%;
+  right: 85%;
+}
+#GLocation {
+  color: white;
+  position: absolute;
+  bottom: 52%;
+  right: 91%;
+}
+#Gimg1 {
+  position: absolute;
+  right: 0%;
+  bottom: -59%;
+}
+#Gheart {
+  color: white;
+  position: absolute;
+  top: 150%;
+  left: 1%;
+  font-size: 55px;
+}
+#Gheart {
+  position: absolute;
+  top: 161%;
+  left: 1%;
+  font-size: 55px;
+}
+#Gheart:hover,
+#Gheart1:hover,
+#Gheart2:hover,
+#Gheart3:hover {
+  fill: red;
+}
+#Gshare {
+  color: white;
+  position: absolute;
+  top: 161%;
+  left: 7%;
+  font-size: 50px;
+}
+#Gcomment {
+  color: white;
+  position: absolute;
+  top: 161%;
+  left: 13%;
+  font-size: 50px;
+}
+#Gl {
+  color: white;
+  position: absolute;
+  left: 2%;
+  top: 171%;
+}
+
+#Gs {
+  color: white;
+  position: absolute;
+  left: 7%;
+  top: 171%;
+}
+#Gc {
+  color: white;
+  position: absolute;
+  left: 12%;
+  top: 171%;
+}
+h1 {
+  color: white;
+  position: absolute;
+  left: 1%;
+  top: 177%;
+  font-size: medium;
+}
+#Gcaption1 {
+  color: white;
+  position: absolute;
+  top: 177%;
+  left: 14%;
+  font-weight: lighter;
+  font-style: italic;
+}
+#Gp2 {
+  position: absolute;
+  right: 93%;
+  top: 188%;
+  fill: crimson;
+  font-size: 400%;
+}
+#Gname1 {
+  background-color: gray;
+  position: absolute;
+  opacity: 1;
+  border: 20px;
+  border-radius: 15px;
+  bottom: -95%;
+  right: 79%;
+  font-size: x-large;
+  color: black;
+}
+#Gloc1 {
+  color: white;
+  position: absolute;
+  bottom: -99%;
+  right: 85%;
+}
+#Glocation1 {
+  color: white;
+  position: absolute;
+  bottom: -99%;
+  right: 91%;
+}
+#Gimg2 {
+  position: absolute;
+  right: 0%;
+  bottom: -209%;
+}
+#Gheart1 {
+  color: white;
+  position: absolute;
+  top: 310%;
+  left: 1%;
+  font-size: 55px;
+}
+
+#Gshare1 {
+  color: white;
+  position: absolute;
+  top: 310%;
+  left: 7%;
+  font-size: 50px;
+}
+#Gcomment1 {
+  color: white;
+  position: absolute;
+  top: 310%;
+  left: 13%;
+  font-size: 50px;
+}
+#Gl1 {
+  color: white;
+  position: absolute;
+  left: 2%;
+  top: 320%;
+}
+#Gs1 {
+  color: white;
+  position: absolute;
+  left: 7%;
+  top: 320%;
+}
+#Gc1 {
+  color: white;
+  position: absolute;
+  left: 12%;
+  top: 320%;
+}
+#Ggm {
+  color: white;
+  position: absolute;
+  left: 1%;
+  top: 325%;
+  font-size: medium;
+}
+#Gcaption2 {
+  color: white;
+  position: absolute;
+  top: 325%;
+  left: 12%;
+  font-weight: lighter;
+  font-style: italic;
+}
+#Gp3 {
+  position: absolute;
+  right: 93%;
+  top: 332%;
+  fill: crimson;
+  font-size: 400%;
+}
+#Gname2 {
+  background-color: grey;
+  position: absolute;
+  opacity: 1;
+  border: 20px;
+  border-radius: 15px;
+  bottom: -238.5%;
+  right: 78.5%;
+  font-size: x-large;
+  color: black;
+}
+#Gloc2 {
+  color: white;
+  position: absolute;
+  bottom: -243%;
+  right: 85%;
+}
+#Glocation2 {
+  color: white;
+  position: absolute;
+  bottom: -243%;
+  right: 91%;
+}
+#Gimg3 {
+  position: absolute;
+  right: 0%;
+  bottom: -353%;
+}
+#Gheart2 {
+  color: white;
+  position: absolute;
+  top: 456%;
+  left: 1%;
+  font-size: 55px;
+}
+
+#Gshare2 {
+  color: white;
+  position: absolute;
+  top: 456%;
+  left: 7%;
+  font-size: 50px;
+}
+#Gcomment2 {
+  color: white;
+  position: absolute;
+  top: 456%;
+  left: 13%;
+  font-size: 50px;
+}
+#Gl2 {
+  color: white;
+  position: absolute;
+  left: 2%;
+  top: 466%;
+}
+#Gs2 {
+  color: white;
+  position: absolute;
+  left: 7%;
+  top: 466%;
+}
+#Gc2 {
+  color: white;
+  position: absolute;
+  left: 12%;
+  top: 466%;
+}
+#Ghema {
+  color: white;
+  position: absolute;
+  left: 1%;
+  top: 470%;
+  font-size: medium;
+}
+#Gcaption3 {
+  color: white;
+  position: absolute;
+  top: 470%;
+  left: 12%;
+  font-weight: lighter;
+  font-style: italic;
+}
+#Gp4 {
+  position: absolute;
+  right: 93%;
+  top: 480%;
+  fill: crimson;
+  font-size: 400%;
+}
+#Gname3 {
+  background-color: grey;
+  position: absolute;
+  opacity: 1;
+  border: 20px;
+  border-radius: 15px;
+  bottom: -386%;
+  right: 77%;
+  font-size: x-large;
+  color: black;
+}
+#Gloc3 {
+  color: white;
+  position: absolute;
+  bottom: -390.5%;
+  right: 85%;
+}
+#Glocation3 {
+  color: white;
+  position: absolute;
+  bottom: -390.5%;
+  right: 91%;
+}
+#Gimg4 {
+  position: absolute;
+  right: 0%;
+  bottom: -500%;
+}
+#Gheart3 {
+  color: white;
+  position: absolute;
+  top: 602%;
+  left: 1%;
+  font-size: 55px;
+}
+
+#Gshare3 {
+  color: white;
+  position: absolute;
+  top: 602%;
+  left: 7%;
+  font-size: 50px;
+}
+#Gcomment3 {
+  color: white;
+  position: absolute;
+  top: 602%;
+  left: 13%;
+  font-size: 50px;
+}
+#Gl3 {
+  color: white;
+  position: absolute;
+  left: 2%;
+  top: 612%;
+}
+#Gs3 {
+  color: white;
+  position: absolute;
+  left: 7%;
+  top: 612%;
+}
+#Gc3 {
+  color: white;
+  position: absolute;
+  left: 12%;
+  top: 612%;
+}
+#GIT {
+  color: white;
+  position: absolute;
+  left: 1%;
+  top: 616%;
+  font-size: medium;
+}
+#Gcaption4 {
+  color: white;
+  position: absolute;
+  top: 616%;
+  left: 12%;
+  font-weight: lighter;
+  font-style: italic;
+}
+#Gview1 {
+  position: absolute;
+  top: 165%;
+  left: 1%;
+  font-style: italic;
+  color: white;
+}

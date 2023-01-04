@@ -1,0 +1,34 @@
+#Contacthead {
+  float: left;
+  font-size: 50px;
+  margin-top: 5vh;
+  color: darkgrey;
+}
+#imagecomfooter {
+  float: right;
+  color: yellow;
+}
+#instafooter,
+#youtubefooter,
+#facebookfooter,
+#twitterfooter,
+#emailfooter {
+  font-size: 60px;
+  margin-right: 10vh;
+  margin-top: -10vh;
+}
+#numberfooter {
+  margin-top: 5vh;
+  color: darkcyan;
+  text-decoration: none;
+  font-size: 56px;
+  margin-right: 10vh;
+}
+#instafooter:hover,
+#youtubefooter:hover,
+#facebookfooter:hover,
+#twitterfooter:hover,
+#emailfooter:hover,
+#numberfooter:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,84 @@
+#head4 {
+  background-image: url("./Assets/backgroundGrey.jpg");
+  background-repeat: "no-repeat";
+  background-size: "fill";
+  background-position: "center";
+  background-attachment: "";
+  height: 295vh;
+}
+
+#EventHead4 {
+  text-align: center;
+  justify-content: center;
+  color: floralwhite;
+  margin-top: 2%;
+}
+
+h2 {
+  color: rgb(233, 245, 3);
+}
+
+#container14 {
+  display: flex;
+  align-items: center;
+}
+
+#container14 img {
+  margin-right: 60px;
+  margin-top: 2%;
+}
+
+#Para14 {
+  color: rgb(255, 255, 255);
+}
+#container24 {
+  display: flex;
+  align-items: center;
+}
+
+#container24 img {
+  margin-right: 60px;
+}
+
+#Para24 {
+  color: rgb(255, 255, 255);
+}
+#container34 {
+  display: flex;
+  align-items: center;
+}
+
+#container34 img {
+  margin-right: 60px;
+}
+
+#Para34 {
+  color: rgb(255, 255, 255);
+}
+
+#Para44 {
+  color: black;
+}
+
+#contact4 {
+  background-color: rgb(164, 164, 164);
+}
+
+#contacthead4 {
+  color: #000;
+}
+
+#imglogo4 {
+  display: flex;
+  padding-top: 13px;
+  padding-left: 13px;
+}
+
+#imginsta4 {
+  position: relative;
+  left: 92%;
+  bottom: 2cm;
+}
+#line4 {
+  margin-top: 2%;
+}
