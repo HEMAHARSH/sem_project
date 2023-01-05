@@ -5,14 +5,12 @@ import EmailIcon from "@mui/icons-material/Email";
 import PlaceIcon from "@mui/icons-material/Place";
 import { Circle } from "@mui/icons-material";
 import Header from "./HeaderComponent/Header";
-import imgqr from './Assets/qrcode.jpg';
+import imgqr from "./Assets/qrcode.jpg";
 import Iframe from "react-iframe";
-
 
 //import Link from '@mui/material/Link'
 
 function Support() {
-  
   const number = (event) => {
     alert(JSON.stringify("Tel no: 143-098789"));
   };
@@ -99,9 +97,8 @@ function Support() {
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
             styles={{ position: "absolute", left: "2vh", top: "8vh" }}
-          >
-          </Iframe>
-          </div>
+          ></Iframe>
+        </div>
         <div>
           <div id="cc">COPYRIGHTS AND CREDITS</div>
           <div id="names">
@@ -115,19 +112,24 @@ function Support() {
             <br />
             5.GOWTHAM.S
           </div>
-          <div id="qrcodes" >Take a peak!</div>
-          <div id="containerqr"><img src={imgqr} alt=" " 
-          id="qrcodecss" 
-          width="110vh" height="110vh" 
-          style={{
-            borderBottomLeftRadius: 10,
-              borderBottomRightRadius: 10,
-              borderTopRightRadius: 10,
-              borderTopLeftRadius: 10,
-             
-          }}></img>
-          <div id="overlayqr">
-          <div id="textqr"></div>Skct Digest</div>
+          <div id="qrcodes">Take a peak!</div>
+          <div id="containerqr">
+            <img
+              src={imgqr}
+              alt=" "
+              id="qrcodecss"
+              width="110vh"
+              height="110vh"
+              style={{
+                borderBottomLeftRadius: 10,
+                borderBottomRightRadius: 10,
+                borderTopRightRadius: 10,
+                borderTopLeftRadius: 10,
+              }}
+            ></img>
+            <div id="overlayqr">
+              <div id="textqr"></div>Skct Digest
+            </div>
           </div>
           <div id="scanme">SCAN ME</div>
         </div>
@@ -139,12 +141,12 @@ function Support() {
 
 export default Support;
 
-          // <button id="locationaddress">
-          //   IT BLOCK,
-          //   <br />
-          //   Sri Krishna College of Technology,
-          //   <br />
-          //   Kovaipudur,
-          //   <br />
-          //   Coimbatore-641042
-          // </button>
+// <button id="locationaddress">
+//   IT BLOCK,
+//   <br />
+//   Sri Krishna College of Technology,
+//   <br />
+//   Kovaipudur,
+//   <br />
+//   Coimbatore-641042
+// </button>
