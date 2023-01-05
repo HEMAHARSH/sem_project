@@ -1,8 +1,9 @@
 #lbody {
-  background-image: url("https://www.srikrishna.ac.in/images/Slider/Slide2.jpg");
+  background-image: url("./Assets/loginbackground.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  background-size: cover;
   height: 100vh;
 }
 .h2 {

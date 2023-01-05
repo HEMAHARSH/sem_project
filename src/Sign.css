@@ -1,8 +1,9 @@
 #Sbody {
-  background-image: url("https://www.srikrishna.ac.in/images/Slider/Slide3.jpg");
+  background-image: url("./Assets/signupbackground.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  background-size:cover;
   height: 100vh;
 }
 #Scover2 {

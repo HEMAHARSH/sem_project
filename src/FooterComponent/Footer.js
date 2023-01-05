@@ -4,16 +4,12 @@ import "./Footer.css";
 import { SocialIcon } from "react-social-icons";
 
 function Footer() {
-  const mobilefooterpop = (event) => {
-    alert(JSON.stringify("Mob no: +91 7896785401"));
-  };
+  
   return (
     <>
       <div id="Contacthead">CONTACT US :</div>
       <div id="imagecomfooter">
-        <a href="" id="mobifooter" onClick={mobilefooterpop}>
-          <CallIcon id="numberfooter" />
-        </a>
+        
         <a
           href="https://mail.google.com/mail/u/0/#sent?compose=CllgCJNvvxcnDWbhFRLLGWsNGHKCfNncDCxwBDFbTdXGzwQWrWZRZkQVvFbSJrPhWqbFNLjqRRg"
           target="_blank"
