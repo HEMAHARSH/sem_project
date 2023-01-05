@@ -45,7 +45,9 @@ input {
   font-size: medium;
 }
 #Flink-btn3 {
-  margin: 0 0 0 0em;
+ position: absolute;
+ left:20vh;
+ top:52vh;
   width: 60%;
   height: 3em;
   background-color: rgb(32, 177, 255);
@@ -54,13 +56,16 @@ input {
   align-items: center;
   transition: 0.3s;
   border-radius: 25em;
+  border: none;
   cursor: pointer;
   font-size: large;
+  
 }
 #Flogin-btn3 {
   margin: 0 0 0 0em;
   width: 60%;
   height: 3em;
+  padding-left: 3vh;
   background-color: rgb(32, 177, 255);
   display: flex;
   justify-content: center;

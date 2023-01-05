@@ -4,7 +4,7 @@
   background-size: "fill";
   background-position: "center";
   background-attachment: "";
-  height: 266vh;
+  height: 268vh;
 }
 #okay {
   position: absolute;
@@ -251,4 +251,45 @@ hr {
   display: flex;
   padding-top: 13px;
   padding-left: 69px;
+}
+#qrcodecss{
+  position: absolute;
+  left:140vh;
+  top:235vh;
+}
+
+#qrcodes{
+  position: absolute;
+  left:142vh;
+  top:230vh;
+}
+#scanme{
+  position: absolute;
+  left:143vh;
+  top:256vh;
+}
+#containerqr:hover #overlayqr{
+  opacity:0.7;
+
+}
+#textqr{
+  color:black;
+  font-size: xx-large;
+  position: absolute;
+  left:200vh;
+  top:200vh;
+  
+  
+  text-align: center;
+  background-color: aqua;
+}
+#overlayqr{
+  position: absolute;
+  left:142vh;
+  top:237vh;
+  height: 17vh;
+  width: 16vh;
+  opacity: 0;
+  transition: .2s ease;
+  background-color:white;
 }

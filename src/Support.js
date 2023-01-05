@@ -5,10 +5,14 @@ import EmailIcon from "@mui/icons-material/Email";
 import PlaceIcon from "@mui/icons-material/Place";
 import { Circle } from "@mui/icons-material";
 import Header from "./HeaderComponent/Header";
+import imgqr from './Assets/qrcode.jpg';
+import Iframe from "react-iframe";
+
 
 //import Link from '@mui/material/Link'
 
 function Support() {
+  
   const number = (event) => {
     alert(JSON.stringify("Tel no: 143-098789"));
   };
@@ -86,22 +90,18 @@ function Support() {
         <Circle id="circle2" />
         <div id="overlay3">
           <PlaceIcon id="place" fontSize="large" />
-          <div id="location">LOCATE US</div>
-          <a
-            href="https://www.google.com/maps/place/Sri+Krishna+College+Of+Technology/@10.9271416,76.9218782,15.9z/data=!4m5!3m4!1s0x0:0x23416a992879b7c4!8m2!3d10.9276015!4d76.9257675"
-            target="_target"
+          <div id="location"></div>
+          <Iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.4729576129293!2d76.92357881416204!3d10.927601492219042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85b823c4ca3d5%3A0x23416a992879b7c4!2sSri%20Krishna%20College%20Of%20Technology!5e0!3m2!1sen!2sin!4v1672896395822!5m2!1sen!2sin"
+            width="330"
+            height="170"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            styles={{ position: "absolute", left: "2vh", top: "8vh" }}
           >
-            <button id="locationaddress">
-              IT BLOCK,
-              <br />
-              Sri Krishna College of Technology,
-              <br />
-              Kovaipudur,
-              <br />
-              Coimbatore-641042
-            </button>
-          </a>
-        </div>
+          </Iframe>
+          </div>
         <div>
           <div id="cc">COPYRIGHTS AND CREDITS</div>
           <div id="names">
@@ -115,6 +115,21 @@ function Support() {
             <br />
             5.GOWTHAM.S
           </div>
+          <div id="qrcodes" >Take a peak!</div>
+          <div id="containerqr"><img src={imgqr} alt=" " 
+          id="qrcodecss" 
+          width="110vh" height="110vh" 
+          style={{
+            borderBottomLeftRadius: 10,
+              borderBottomRightRadius: 10,
+              borderTopRightRadius: 10,
+              borderTopLeftRadius: 10,
+             
+          }}></img>
+          <div id="overlayqr">
+          <div id="textqr"></div>Skct Digest</div>
+          </div>
+          <div id="scanme">SCAN ME</div>
         </div>
         <hr id="hori" />
       </div>
@@ -123,3 +138,13 @@ function Support() {
 }
 
 export default Support;
+
+          // <button id="locationaddress">
+          //   IT BLOCK,
+          //   <br />
+          //   Sri Krishna College of Technology,
+          //   <br />
+          //   Kovaipudur,
+          //   <br />
+          //   Coimbatore-641042
+          // </button>
